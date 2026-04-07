@@ -9,10 +9,10 @@ export default function HomePage() {
   return (
     <>
       {/* HERO */}
-      <section className="relative bg-black overflow-hidden min-h-[88vh] flex items-center">
+      <section className="relative bg-black overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary-gold/8 via-transparent to-transparent" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_75%_30%,rgba(212,175,55,0.07),transparent_55%)]" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-12 md:pt-14 md:pb-16">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-14 md:pt-10 md:pb-16">
           <div className="max-w-4xl">
             <div className="badge mb-5">
               <GraduationCap className="w-4 h-4" />
