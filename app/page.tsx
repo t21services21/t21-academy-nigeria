@@ -112,22 +112,23 @@ export default function HomePage() {
               <div className="space-y-4 text-gray-400 leading-relaxed">
                 <p>
                   T21 Academy Nigeria is the workforce training and development arm of{" "}
-                  <strong className="text-primary-gold">T21 Global Group</strong>. It delivers structured,
-                  practical, and scalable training programmes across digital, technical, and operational domains.
+                  <strong className="text-primary-gold">T21 Global Group</strong>. Every programme we deliver is
+                  <strong className="text-white"> 100% practical and hands-on</strong> — no passive learning, no theory-only sessions.
                 </p>
                 <p>
-                  The Academy is built to train, certify, and deploy talent into government programmes, private sector roles,
-                  remote work opportunities, and international markets.
+                  Learners build <strong className="text-white">real systems</strong>, work on <strong className="text-white">live projects</strong>,
+                  use industry-standard tools in simulated and real environments, and graduate with a verifiable
+                  portfolio of work — not just a certificate.
                 </p>
                 <p>
-                  As an <strong className="text-white">Authorised Certiport Examination Centre</strong>, candidates do not just
-                  train with us — they also sit internationally recognised certification exams directly at our centre.
-                  This is the complete pipeline: Train → Certify → Deploy.
+                  We offer both <strong className="text-white">physical training</strong> at our fully equipped centres in Abuja and
+                  Ekiti, and <strong className="text-white">virtual/online training</strong> for candidates across Nigeria and beyond.
                 </p>
                 <p>
-                  We have delivered national programmes including <strong className="text-white">3MTT</strong>,{" "}
-                  <strong className="text-white">DeepTech</strong>, and <strong className="text-white">TVET</strong>, with
-                  proven infrastructure and government-validated delivery experience.
+                  As an <strong className="text-white">Authorised Certiport Examination Centre</strong>, candidates train and
+                  sit internationally recognised exams on-site. Delivered {" "}
+                  <strong className="text-white">3MTT</strong>, <strong className="text-white">DeepTech</strong>, and{" "}
+                  <strong className="text-white">TVET</strong> with government-validated outcomes.
                 </p>
               </div>
               <div className="mt-8 flex flex-wrap gap-3">
@@ -139,10 +140,10 @@ export default function HomePage() {
             </div>
             <div className="space-y-4">
               {[
-                { icon: Target, title: "Structured Training", desc: "Practical, hands-on programmes built around real job requirements and industry standards." },
-                { icon: Award, title: "Certiport Certified", desc: "Sit internationally recognised exams at our authorised centre. MOS, IC3, Adobe, Python, and more." },
-                { icon: TrendingUp, title: "Talent Deployment", desc: "Job placement, remote work pipelines, BPO outsourcing, and government programme deployment." },
-                { icon: Globe, title: "Nigeria + International", desc: "Integrated with T21's UK operations — opening cross-border employment and certification pathways." },
+                { icon: Laptop, title: "100% Practical & Hands-On", desc: "Every session involves doing — building real systems, using real tools, and solving real problems. No passive lectures." },
+                { icon: Monitor, title: "Physical & Virtual Training", desc: "Train at our physical centres in Abuja or Ekiti, or join virtually from anywhere in Nigeria and beyond." },
+                { icon: Award, title: "Certiport Exam Centre", desc: "Train and sit internationally recognised Certiport exams on-site. MOS, IC3, Adobe, Python Institute and more." },
+                { icon: Briefcase, title: "Work References & Portfolio", desc: "Graduate with real projects, documented work experience, and references to support your job applications." },
               ].map((item) => (
                 <div key={item.title} className="glass-card flex items-start gap-4 !py-4">
                   <div className="w-10 h-10 rounded-lg bg-primary-gold/10 flex items-center justify-center flex-shrink-0">
@@ -154,6 +155,94 @@ export default function HomePage() {
                   </div>
                 </div>
               ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* HOW WE TRAIN */}
+      <section className="py-16 bg-black border-y border-primary-gold/10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <div className="badge mb-4 mx-auto w-fit">
+              <Laptop className="w-4 h-4" /> How We Train
+            </div>
+            <h2 className="section-title mx-auto">
+              Practical. Hands-On.{" "}
+              <span className="text-gold">Built Around Real Work.</span>
+            </h2>
+            <p className="section-subtitle mx-auto text-center">
+              Every programme at T21 Academy is designed so that learners practise what they learn — using the same tools,
+              systems, and workflows used in real jobs.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
+            {[
+              {
+                icon: Monitor,
+                title: "Real System Building",
+                desc: "Learners build actual working systems — websites, databases, dashboards, pipelines — not just mock exercises.",
+              },
+              {
+                icon: Shield,
+                title: "Simulation & Live Environments",
+                desc: "Work in simulated professional environments that mirror real workplaces, using live cloud tools and platforms.",
+              },
+              {
+                icon: Users,
+                title: "Team Projects & Collaboration",
+                desc: "Work in teams on real briefs, practise professional communication, and develop the collaborative skills employers expect.",
+              },
+              {
+                icon: Briefcase,
+                title: "Portfolio & Work References",
+                desc: "Graduate with documented project work, a professional portfolio, and references from T21 Academy to support job applications.",
+              },
+            ].map((item) => (
+              <div key={item.title} className="glass-card text-center">
+                <div className="w-12 h-12 rounded-full bg-primary-gold/10 flex items-center justify-center mx-auto mb-4">
+                  <item.icon className="w-6 h-6 text-primary-gold" />
+                </div>
+                <h4 className="font-bold text-white mb-2 font-playfair text-sm">{item.title}</h4>
+                <p className="text-gray-400 text-xs leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+          <div className="glass-card max-w-4xl mx-auto">
+            <div className="grid sm:grid-cols-2 gap-6">
+              <div>
+                <h4 className="text-white font-bold mb-3 font-playfair flex items-center gap-2">
+                  <Building2 className="w-4 h-4 text-primary-gold" /> Physical Training
+                </h4>
+                <p className="text-gray-400 text-sm leading-relaxed mb-3">
+                  Train in person at our fully equipped centres in <strong className="text-white">Abuja (CBD)</strong> and{" "}
+                  <strong className="text-white">Ado-Ekiti</strong>. Access 100+ laptops, 24/7 power, and high-speed internet
+                  in a structured, supervised environment.
+                </p>
+                <ul className="space-y-1">
+                  {["Supervised lab sessions", "Face-to-face facilitation", "On-site Certiport exams", "Peer learning environment"].map((i) => (
+                    <li key={i} className="flex items-center gap-2 text-xs text-gray-300">
+                      <CheckCircle className="w-3.5 h-3.5 text-primary-gold flex-shrink-0" />{i}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-white font-bold mb-3 font-playfair flex items-center gap-2">
+                  <Globe className="w-4 h-4 text-primary-gold" /> Virtual / Online Training
+                </h4>
+                <p className="text-gray-400 text-sm leading-relaxed mb-3">
+                  Join training remotely from anywhere in Nigeria or internationally. Live sessions, structured modules,
+                  and the same practical outcomes — without relocating.
+                </p>
+                <ul className="space-y-1">
+                  {["Live virtual sessions", "Remote access to course materials", "Online project submissions", "Virtual team collaboration"].map((i) => (
+                    <li key={i} className="flex items-center gap-2 text-xs text-gray-300">
+                      <CheckCircle className="w-3.5 h-3.5 text-primary-gold flex-shrink-0" />{i}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>

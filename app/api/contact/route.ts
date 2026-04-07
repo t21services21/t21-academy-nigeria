@@ -8,7 +8,8 @@ export async function POST(req: NextRequest) {
     const isApplication = type === "application";
     const senderName = fullName || name || "Unknown";
     const sendgridKey = process.env.SENDGRID_API_KEY;
-    const fromEmail = process.env.FROM_EMAIL || "admin@t21services.com.ng";
+    const fromEmail = process.env.FROM_EMAIL || "admin@t21services.co.uk"; // SendGrid verified sender
+    const toEmail = "admin@t21services.com.ng"; // Always deliver to Nigeria inbox
 
     const emailSubject = isApplication
       ? `New Training Application — ${senderName} (${pathway || "Pathway TBC"})`
@@ -45,7 +46,7 @@ export async function POST(req: NextRequest) {
           method: "POST",
           headers: { Authorization: `Bearer ${sendgridKey}`, "Content-Type": "application/json" },
           body: JSON.stringify({
-            personalizations: [{ to: [{ email: fromEmail }] }],
+            personalizations: [{ to: [{ email: toEmail }] }],
             from: { email: fromEmail, name: "T21 Academy Nigeria" },
             reply_to: { email },
             subject: emailSubject,
