@@ -7,12 +7,12 @@ import {
 const exams = [
   {
     category: "Microsoft Office Specialist (MOS)",
-    description: "The globally recognised standard for Microsoft Office proficiency. Validates real-world skills in the Microsoft Office suite.",
+    description: "The internationally recognised standard for Microsoft Office proficiency. Confirms practical skills across the Microsoft Office suite.",
     available: ["MOS Word (Associate & Expert)", "MOS Excel (Associate & Expert)", "MOS PowerPoint (Associate)", "MOS Outlook (Associate)", "MOS Access (Associate)", "Microsoft Office Specialist Master"],
   },
   {
     category: "IC3 Digital Literacy",
-    description: "The international standard for foundational digital literacy. Recognised by employers and educational institutions worldwide.",
+    description: "An internationally recognised certification for foundational digital skills. Accepted by employers and educational institutions worldwide.",
     available: ["IC3 GS6 Computing Fundamentals", "IC3 GS6 Key Applications", "IC3 GS6 Living Online", "IC3 Digital Literacy Certification (full)"],
   },
   {
@@ -22,7 +22,7 @@ const exams = [
   },
   {
     category: "Adobe Certified Professional",
-    description: "Industry-standard certification for Adobe creative applications used in design, media, and marketing.",
+    description: "Internationally recognised certification for Adobe creative software used in design, media, and marketing.",
     available: ["Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere Pro", "Adobe InDesign", "Adobe Animate"],
   },
   {
@@ -52,8 +52,7 @@ export default function CertiportPage() {
             <span className="text-gold">Authorised Certiport Examination Centre</span>
           </h1>
           <p className="text-lg text-gray-400 leading-relaxed max-w-3xl mx-auto mb-6">
-            We do not just train you — you can sit internationally recognised Certiport certification
-            exams directly at our centre. This is the complete pipeline: Train with us, then certify with us.
+            You can sit internationally recognised Certiport certification exams directly at our centre. We train you and then you can take the exam on-site, all in one place.
           </p>
           <div className="flex flex-wrap justify-center gap-3 mb-10">
             <span className="certiport-badge">Authorised Certiport Testing Centre</span>

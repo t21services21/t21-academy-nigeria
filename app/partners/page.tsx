@@ -19,8 +19,7 @@ export default function PartnersPage() {
             <span className="text-gold">T21 Academy Nigeria</span>
           </h1>
           <p className="text-lg text-gray-400 leading-relaxed max-w-3xl mx-auto">
-            T21 Academy is built to deliver workforce training at scale across Nigeria and Africa. We work with
-            governments, development organisations, NGOs, corporate sponsors, and international employers.
+            T21 Academy delivers training programmes across Nigeria and works with governments, development organisations, NGOs, corporate sponsors, and international employers.
           </p>
         </div>
       </section>
@@ -33,17 +32,17 @@ export default function PartnersPage() {
               Why Partner With T21 Academy?
             </h2>
             <p className="section-subtitle mx-auto text-center">
-              We bring real infrastructure, proven delivery, and a scalable model that development partners and funders can depend on.
+              We have the facilities, experience, and track record that development partners and funders need when commissioning training programmes.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
               { icon: Building2, title: "100+ Laptop Capacity", desc: "Physical training infrastructure with over 100 laptops, 24/7 electricity, and high-speed internet at our centres." },
               { icon: Shield, title: "Proven Government Delivery", desc: "Delivered 3MTT, DeepTech, TVET, and NIPSS programmes. Trusted by federal and state government agencies." },
-              { icon: Globe, title: "Multi-Location Deployment", desc: "We can deploy training programmes across multiple Nigerian states and scale into African markets." },
-              { icon: Target, title: "Certiport Authorised Centre", desc: "Officially authorised to deliver Certiport certification exams — a globally recognised credential standard." },
-              { icon: TrendingUp, title: "5,000+ Trained", desc: "A documented track record of training, certifying, and deploying talent at scale across multiple sectors." },
-              { icon: Users, title: "Integrated UK Operations", desc: "Connected to T21's UK delivery model — enabling international certification and cross-border workforce pipelines." },
+              { icon: Globe, title: "Multi-Location Delivery", desc: "We deliver training programmes across multiple Nigerian states and can extend into other African countries." },
+              { icon: Target, title: "Certiport Authorised Centre", desc: "Officially authorised to deliver Certiport certification exams, which are internationally recognised and respected by employers worldwide." },
+              { icon: TrendingUp, title: "5,000+ Trained", desc: "A documented record of training and certifying over 5,000 people across multiple sectors and programmes." },
+              { icon: Users, title: "UK Operations", desc: "Connected to T21's UK operations, which opens up international certification pathways and cross-border employment opportunities for graduates." },
             ].map((item) => (
               <div key={item.title} className="glass-card">
                 <div className="w-12 h-12 rounded-xl bg-primary-gold/10 flex items-center justify-center mb-4">
@@ -66,8 +65,8 @@ export default function PartnersPage() {
                 <Landmark className="w-4 h-4" /> Government & Development Organisations
               </div>
               <h2 className="section-title">
-                Trusted by Government.{" "}
-                <span className="text-gold">Ready for Scale.</span>
+                Working with{" "}
+                <span className="text-gold">Government and Public Sector</span>
               </h2>
               <p className="text-gray-400 leading-relaxed mb-6">
                 T21 Academy has a proven track record of working with federal and state government agencies to deliver
@@ -76,12 +75,12 @@ export default function PartnersPage() {
               </p>
               <div className="space-y-3 mb-8">
                 {[
-                  "Nationwide deployment capability across Nigerian states",
+                  "Ability to deliver programmes across Nigerian states",
                   "Government-validated delivery experience (3MTT, TVET, DeepTech)",
-                  "Structured reporting, assessment, and governance frameworks",
-                  "Certiport-certified examination infrastructure",
+                  "Structured reporting, assessment, and governance processes",
+                  "Authorised Certiport examination centre",
                   "Experienced programme management and coordination team",
-                  "Scalable model for large cohort training",
+                  "Capacity to train large cohorts across multiple locations",
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-3 text-sm text-gray-300">
                     <CheckCircle className="w-4 h-4 text-primary-gold flex-shrink-0 mt-0.5" />
@@ -104,9 +103,9 @@ export default function PartnersPage() {
                 <div className="space-y-3">
                   {[
                     { title: "Large Cohort Training", desc: "Train 100 to 1,000+ participants across a single programme with structured coordination." },
-                    { title: "State-Level Rollout", desc: "Deploy across Nigerian states using our mobile training model and partner network." },
+                    { title: "State-Level Delivery", desc: "Deliver across Nigerian states using our mobile training capacity and partner network." },
                     { title: "Certification Integration", desc: "Include Certiport or T21 certification as part of your programme deliverables." },
-                    { title: "Post-Training Deployment", desc: "Pipeline trained graduates directly into employment, BPO, or government placements." },
+                    { title: "Post-Training Support", desc: "Connect trained graduates into employment, BPO work, or government programme placements." },
                   ].map((item) => (
                     <div key={item.title} className="border-l-2 border-primary-gold/30 pl-4">
                       <p className="text-white font-semibold text-sm">{item.title}</p>
@@ -128,18 +127,18 @@ export default function PartnersPage() {
               <TrendingUp className="w-4 h-4" /> Corporate & Development Sponsors
             </div>
             <h2 className="section-title mx-auto">
-              Sponsor Training.{" "}
-              <span className="text-gold">Create Real Impact.</span>
+              Sponsor{" "}
+              <span className="text-gold">Training Programmes</span>
             </h2>
             <p className="section-subtitle mx-auto text-center">
-              Sponsoring training at T21 Academy Nigeria creates measurable workforce impact across Nigeria and Africa.
+              Sponsoring training at T21 Academy Nigeria helps people in Nigeria gain real skills and find meaningful work.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             {[
               {
                 title: "Individual Sponsorship",
-                desc: "Sponsor one or more candidates through a full training pathway — covering fees, materials, and certification.",
+                desc: "Sponsor one or more candidates through a full training pathway, covering fees, materials, and certification.",
                 includes: ["Full pathway training fees", "Certiport exam coverage", "Certificate on completion", "Named sponsorship recognition"],
               },
               {
@@ -149,7 +148,7 @@ export default function PartnersPage() {
               },
               {
                 title: "Infrastructure Partnership",
-                desc: "Contribute to expanding our training infrastructure — new laptops, equipment, or facility development.",
+                desc: "Contribute to expanding our training facilities by funding new laptops, equipment, or classroom development.",
                 includes: ["Equipment and lab expansion", "Named infrastructure contribution", "Multi-year impact", "Recognition across our platforms"],
               },
             ].map((tier) => (

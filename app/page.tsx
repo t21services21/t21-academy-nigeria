@@ -23,17 +23,14 @@ export default function HomePage() {
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 font-playfair">
               Train, Get Certified, and{" "}
-              <span className="text-gold">Access Real Opportunities</span>{" "}
-              — Across Nigeria and Globally
+              <span className="text-gold">Find Real Work</span>{" "}
+              Across Nigeria and Internationally
             </h1>
             <p className="text-lg text-gray-300 mb-3 leading-relaxed max-w-3xl">
-              T21 Academy Nigeria delivers structured digital, technical, and workforce training programmes designed to prepare talent for employment, remote work, and international opportunities.
+              T21 Academy Nigeria delivers practical digital, technical, and professional training programmes to prepare people for employment, remote work, and international opportunities.
             </p>
-            <p className="text-sm text-gray-400 mb-3 leading-relaxed border-l-2 border-primary-gold/40 pl-4 max-w-2xl">
-              Built on real infrastructure, proven government programme delivery, and international certification pathways.
-            </p>
-            <p className="text-sm text-primary-gold/80 mb-8 font-medium">
-              Designed for scalable deployment across Nigeria and Africa.
+            <p className="text-sm text-gray-400 mb-8 leading-relaxed border-l-2 border-primary-gold/40 pl-4 max-w-2xl">
+              We have physical training centres in Abuja and Ekiti, a proven record of delivering government programmes, and we are an authorised Certiport examination centre.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link href="/apply" className="btn-gold inline-flex items-center gap-2">
@@ -85,9 +82,9 @@ export default function HomePage() {
               "Part of T21 Global Group",
               "Government Programme Delivery (3MTT, DeepTech, TVET)",
               "Authorised Certiport Examination Centre",
-              "Physical Training Infrastructure",
-              "UK + Nigeria Integrated Model",
-              "Workforce Pipeline System",
+              "Physical Training Centres in Abuja and Ekiti",
+              "UK and Nigeria Operations",
+              "Job Placement and Employment Support",
             ].map((item) => (
               <span key={item} className="badge text-xs">
                 <CheckCircle className="w-3 h-3" /> {item}
@@ -106,19 +103,16 @@ export default function HomePage() {
                 <Landmark className="w-4 h-4" /> About T21 Academy Nigeria
               </div>
               <h2 className="section-title">
-                A Workforce Infrastructure Platform —{" "}
-                <span className="text-gold">Not Just a Training Centre</span>
+                About{" "}
+                <span className="text-gold">T21 Academy Nigeria</span>
               </h2>
               <div className="space-y-4 text-gray-400 leading-relaxed">
                 <p>
-                  T21 Academy Nigeria is the workforce training and development arm of{" "}
-                  <strong className="text-primary-gold">T21 Global Group</strong>. Every programme we deliver is
-                  <strong className="text-white"> 100% practical and hands-on</strong> — no passive learning, no theory-only sessions.
+                  T21 Academy Nigeria is the training and development arm of{" "}
+                  <strong className="text-primary-gold">T21 Global Group</strong>. All our training is practical and hands-on. Learners work on real tasks and real tools from day one.
                 </p>
                 <p>
-                  Learners build <strong className="text-white">real systems</strong>, work on <strong className="text-white">live projects</strong>,
-                  use industry-standard tools in simulated and real environments, and graduate with a verifiable
-                  portfolio of work — not just a certificate.
+                  Students build working systems, complete live projects, and finish with a portfolio of documented work they can show to employers.
                 </p>
                 <p>
                   We offer both <strong className="text-white">physical training</strong> at our fully equipped centres in Abuja and
@@ -140,7 +134,7 @@ export default function HomePage() {
             </div>
             <div className="space-y-4">
               {[
-                { icon: Laptop, title: "100% Practical & Hands-On", desc: "Every session involves doing — building real systems, using real tools, and solving real problems. No passive lectures." },
+                { icon: Laptop, title: "Practical and Hands-On", desc: "Every session is practical. Students work on real systems, use real tools, and solve real problems throughout the programme." },
                 { icon: Monitor, title: "Physical & Virtual Training", desc: "Train at our physical centres in Abuja or Ekiti, or join virtually from anywhere in Nigeria and beyond." },
                 { icon: Award, title: "Certiport Exam Centre", desc: "Train and sit internationally recognised Certiport exams on-site. MOS, IC3, Adobe, Python Institute and more." },
                 { icon: Briefcase, title: "Work References & Portfolio", desc: "Graduate with real projects, documented work experience, and references to support your job applications." },
@@ -168,12 +162,11 @@ export default function HomePage() {
               <Laptop className="w-4 h-4" /> How We Train
             </div>
             <h2 className="section-title mx-auto">
-              Practical. Hands-On.{" "}
-              <span className="text-gold">Built Around Real Work.</span>
+              How We{" "}
+              <span className="text-gold">Deliver Training</span>
             </h2>
             <p className="section-subtitle mx-auto text-center">
-              Every programme at T21 Academy is designed so that learners practise what they learn — using the same tools,
-              systems, and workflows used in real jobs.
+              Every programme at T21 Academy is practical. Students use the same tools, systems, and working methods used in real jobs.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
@@ -181,17 +174,17 @@ export default function HomePage() {
               {
                 icon: Monitor,
                 title: "Real System Building",
-                desc: "Learners build actual working systems — websites, databases, dashboards, pipelines — not just mock exercises.",
+                desc: "Students build working systems throughout their training, such as websites, databases, and dashboards, using the tools employers actually use.",
               },
               {
                 icon: Shield,
                 title: "Simulation & Live Environments",
-                desc: "Work in simulated professional environments that mirror real workplaces, using live cloud tools and platforms.",
+                desc: "Students work in environments that reflect real workplaces, using live tools and cloud platforms throughout their training.",
               },
               {
                 icon: Users,
                 title: "Team Projects & Collaboration",
-                desc: "Work in teams on real briefs, practise professional communication, and develop the collaborative skills employers expect.",
+                desc: "Students work in teams on real tasks, practise professional communication, and build the skills employers look for.",
               },
               {
                 icon: Briefcase,
@@ -233,7 +226,7 @@ export default function HomePage() {
                 </h4>
                 <p className="text-gray-400 text-sm leading-relaxed mb-3">
                   Join training remotely from anywhere in Nigeria or internationally. Live sessions, structured modules,
-                  and the same practical outcomes — without relocating.
+                  and the same practical outcomes, without needing to relocate.
                 </p>
                 <ul className="space-y-1">
                   {["Live virtual sessions", "Remote access to course materials", "Online project submissions", "Virtual team collaboration"].map((i) => (
@@ -257,7 +250,7 @@ export default function HomePage() {
             </div>
             <h2 className="section-title mx-auto">The T21 Learning Journey</h2>
             <p className="section-subtitle mx-auto text-center">
-              A structured, end-to-end pathway from application to real-world deployment.
+              A clear, step-by-step process from application through to employment.
             </p>
           </div>
           <div className="relative">
@@ -268,7 +261,7 @@ export default function HomePage() {
                 { step: "02", icon: CheckCircle, title: "Get Selected", desc: "Assessment and selection based on your background, goals, and pathway of interest." },
                 { step: "03", icon: Laptop, title: "Train", desc: "Hands-on, practical training with experienced facilitators in a structured environment." },
                 { step: "04", icon: Award, title: "Get Certified", desc: "Sit Certiport or T21 certification exams at our authorised examination centre." },
-                { step: "05", icon: Briefcase, title: "Deploy", desc: "Access jobs, BPO placements, remote work, freelancing, or government programme roles." },
+                { step: "05", icon: Briefcase, title: "Find Work", desc: "Get support accessing jobs, remote work, freelancing, BPO placements, or government programme roles." },
               ].map((item) => (
                 <div key={item.step} className="flex flex-col items-center text-center relative">
                   <div className="step-number mb-4 text-base w-12 h-12">{item.step}</div>
@@ -283,7 +276,7 @@ export default function HomePage() {
           </div>
           <div className="text-center mt-10">
             <Link href="/apply" className="btn-gold inline-flex items-center gap-2">
-              Start Your Journey <ArrowRight className="w-4 h-4" />
+              Apply Now <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
         </div>
@@ -296,13 +289,11 @@ export default function HomePage() {
             <div className="badge mb-4 mx-auto w-fit">
               <Building2 className="w-4 h-4" /> Infrastructure
             </div>
-            <h2 className="section-title mx-auto">
-              Real Training Infrastructure —{" "}
-              <span className="text-gold">Built for Scale</span>
+              <h2 className="section-title mx-auto">
+              Our Training Facilities
             </h2>
             <p className="section-subtitle mx-auto text-center">
-              T21 Academy is not a virtual-only provider. We have physical, well-equipped training environments
-              with the infrastructure needed to deliver at scale.
+              T21 Academy has physical training centres with the equipment and facilities needed to run structured programmes properly.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -310,9 +301,9 @@ export default function HomePage() {
               { icon: Laptop, title: "100+ Laptops & Devices", desc: "Fully equipped computer lab with 100+ laptops available for hands-on training sessions." },
               { icon: Zap, title: "24/7 Electricity", desc: "Uninterrupted power supply ensuring training is never disrupted by power outages." },
               { icon: Wifi, title: "High-Speed Internet", desc: "Stable, high-speed internet connection supporting online tools, cloud platforms, and remote collaboration." },
-              { icon: Building2, title: "Physical Training Hubs", desc: "Dedicated training facilities in Abuja (CBD) and Ado-Ekiti, with multi-location expansion capability." },
+              { icon: Building2, title: "Training Centres", desc: "Dedicated training facilities in Abuja (CBD) and Ado-Ekiti, with the capacity to expand to additional locations." },
               { icon: Users, title: "Qualified Trainers & Support", desc: "Experienced facilitators, technical support staff, and programme coordinators." },
-              { icon: Monitor, title: "Structured Learning Environments", desc: "Purpose-built classrooms with structured schedules, assessments, and outcome tracking." },
+              { icon: Monitor, title: "Structured Classrooms", desc: "Classrooms set up for structured learning with timetabled sessions, assessments, and progress tracking." },
             ].map((item) => (
               <div key={item.title} className="glass-card">
                 <div className="w-12 h-12 rounded-xl bg-primary-gold/10 flex items-center justify-center mb-4">
@@ -335,26 +326,25 @@ export default function HomePage() {
                 <Globe className="w-4 h-4" /> Deployment Capability
               </div>
               <h2 className="section-title">
-                Train Anywhere.{" "}
-                <span className="text-gold">Deploy Everywhere.</span>
+                Where We{" "}
+                <span className="text-gold">Deliver Training</span>
               </h2>
               <p className="text-gray-400 leading-relaxed mb-8">
-                T21 Academy is not limited to a single location. Our infrastructure and delivery systems
-                allow us to deploy training programmes across Nigeria and into African markets.
+                T21 Academy is not limited to one location. We deliver training across Nigeria and have the capacity to run programmes in multiple states and through government partnerships.
               </p>
               <div className="space-y-6">
                 {[
                   {
-                    title: "Nationwide Deployment",
-                    items: ["Programmes across Nigerian states", "Government and institutional training", "State-level partnership delivery"],
+                    title: "Training Across Nigeria",
+                    items: ["Programmes delivered across Nigerian states", "Government and institutional training", "State-level partnership delivery"],
                   },
                   {
-                    title: "Mobile Training Infrastructure",
-                    items: ["Portable training setups", "On-site delivery at client locations", "Community and campus deployment"],
+                    title: "On-Site and Mobile Training",
+                    items: ["Portable training setups available", "On-site delivery at client locations", "Community and campus programmes"],
                   },
                   {
-                    title: "Pan-African Expansion",
-                    items: ["Expansion capability across Africa", "Partnership-driven delivery model", "International certification pathways"],
+                    title: "International Reach",
+                    items: ["Programmes extending into other African countries", "Delivery through international partnerships", "Internationally recognised certifications"],
                   },
                 ].map((section) => (
                   <div key={section.title}>
@@ -378,9 +368,9 @@ export default function HomePage() {
                 </h4>
                 <div className="space-y-4">
                   {[
-                    { city: "Abuja Office", role: "Government Coordination & National HQ", address: "Plot No 70, Kebbi House, Suite D5, 3rd Floor, Kur Mohammed Way, CBD, Abuja, FCT" },
-                    { city: "Ekiti Office", role: "Primary Training Hub", address: "68 Lino Building, Opposite Crunchies, Similoluwa, Ado-Ekiti, Ekiti State" },
-                    { city: "UK Office", role: "International Certification & Partnerships", address: "64 Upper Parliament Street, Liverpool, L8 7LF, United Kingdom" },
+                    { city: "Abuja Office", role: "National Office and Government Programmes", address: "Plot No 70, Kebbi House, Suite D5, 3rd Floor, Kur Mohammed Way, CBD, Abuja, FCT" },
+                    { city: "Ekiti Office", role: "Training Centre", address: "68 Lino Building, Opposite Crunchies, Similoluwa, Ado-Ekiti, Ekiti State" },
+                    { city: "UK Office", role: "International Office", address: "64 Upper Parliament Street, Liverpool, L8 7LF, United Kingdom" },
                   ].map((loc) => (
                     <div key={loc.city} className="border-l-2 border-primary-gold/30 pl-4">
                       <p className="text-white font-semibold text-sm">{loc.city}</p>
@@ -400,19 +390,19 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="section-title mx-auto">
-              Built for Local Impact and{" "}
-              <span className="text-gold">Global Opportunities</span>
+              Local Training,{" "}
+              <span className="text-gold">International Opportunities</span>
             </h2>
             <p className="section-subtitle mx-auto text-center">
-              T21 Academy prepares learners not just for Nigeria — but for the global digital economy.
+              T21 Academy trains people for employment in Nigeria and for international remote work opportunities.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
               { icon: Briefcase, title: "Local Employment", desc: "Placement into Nigerian companies, government agencies, and institutions." },
-              { icon: Globe, title: "Remote Work", desc: "Remote jobs with international companies through our BPO and outsourcing pipeline." },
+              { icon: Globe, title: "Remote Work", desc: "Remote employment with international companies through our BPO and outsourcing partnerships." },
               { icon: TrendingUp, title: "Digital Economy", desc: "Freelancing, digital services, and online platform income opportunities." },
-              { icon: Star, title: "Cross-Border Pathways", desc: "Connections to UK programmes, international employers, and global workforce pipelines." },
+              { icon: Star, title: "International Connections", desc: "Links to UK programmes, international employers, and opportunities beyond Nigeria." },
             ].map((item) => (
               <div key={item.title} className="glass-card text-center">
                 <div className="w-12 h-12 rounded-full bg-primary-gold/10 flex items-center justify-center mx-auto mb-4">
@@ -433,14 +423,14 @@ export default function HomePage() {
             <div className="badge mb-4 mx-auto w-fit">
               <Shield className="w-4 h-4" /> Proven Track Record
             </div>
-            <h2 className="section-title mx-auto">Proven Impact at Scale</h2>
+            <h2 className="section-title mx-auto">Our Track Record</h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
             {[
               { stat: "5,000+", label: "Professionals Trained", sub: "Across multiple cohorts and programmes" },
               { stat: "20+", label: "Government Engagements", sub: "Federal and state level partnerships" },
               { stat: "3+", label: "National Programmes", sub: "3MTT, DeepTech, TVET delivered" },
-              { stat: "6+", label: "Training Sectors", sub: "Tech, healthcare, creative, BPO, and more" },
+              { stat: "6+", label: "Training Areas", sub: "Tech, healthcare, creative, administration and more" },
             ].map((item) => (
               <div key={item.label} className="glass-card text-center">
                 <div className="metric-number text-4xl mb-2">{item.stat}</div>
@@ -480,12 +470,10 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-bold text-white mb-3 font-playfair">Partner With T21 Academy Nigeria</h3>
               <p className="text-gray-400 text-sm leading-relaxed mb-5">
-                T21 Academy is built to deliver workforce training at scale across Nigeria and Africa. We offer
-                infrastructure capacity, proven delivery, and a structured deployment model for government agencies,
-                NGOs, and development partners.
+                T21 Academy delivers training programmes across Nigeria and Africa. We work with government agencies, NGOs, and development organisations to design and run structured training programmes.
               </p>
               <ul className="space-y-2 mb-6">
-                {["100+ laptop training capacity", "Proven national programme delivery", "Scalable multi-location deployment", "Government-validated track record"].map((i) => (
+                {["100+ laptop training capacity", "Proven national programme delivery", "Multi-location delivery", "Government-validated track record"].map((i) => (
                   <li key={i} className="flex items-center gap-2 text-sm text-gray-300">
                     <CheckCircle className="w-4 h-4 text-primary-gold flex-shrink-0" />{i}
                   </li>
@@ -507,14 +495,14 @@ export default function HomePage() {
                 programmes and in many cases hold Certiport-recognised certifications.
               </p>
               <ul className="space-y-2 mb-6">
-                {["Hire trained candidates directly", "Access our remote workforce pipeline", "Outsource operations via our BPO network", "Partner for tailored workforce solutions"].map((i) => (
+                {["Hire trained candidates directly", "Access our remote working graduates", "Outsource operations through our BPO network", "Commission tailored training for your organisation"].map((i) => (
                   <li key={i} className="flex items-center gap-2 text-sm text-gray-300">
                     <CheckCircle className="w-4 h-4 text-primary-gold flex-shrink-0" />{i}
                   </li>
                 ))}
               </ul>
               <Link href="/partners#employers" className="btn-gold text-sm !py-2 inline-flex items-center gap-2">
-                Access Our Talent Pool <ArrowRight className="w-4 h-4" />
+                Find Out More <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
           </div>
@@ -529,12 +517,11 @@ export default function HomePage() {
             <GraduationCap className="w-4 h-4" /> Start Today
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-playfair">
-            Start Your Journey with{" "}
-            <span className="text-gold">T21 Academy Nigeria</span>
+            Ready to Get Started with{" "}
+            <span className="text-gold">T21 Academy Nigeria?</span>
           </h2>
           <p className="text-gray-400 mb-8 leading-relaxed">
-            Whether you are looking to train, certify, get placed, or partner — T21 Academy Nigeria
-            has the infrastructure, credentials, and track record to deliver.
+            Whether you are looking to train, get certified, find work, or work with us as a partner, get in touch and our team will help you take the next step.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/apply" className="btn-gold inline-flex items-center gap-2 text-base !px-8 !py-4">

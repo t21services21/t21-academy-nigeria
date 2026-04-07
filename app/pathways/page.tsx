@@ -91,12 +91,11 @@ export default function PathwaysPage() {
             <GraduationCap className="w-4 h-4" /> Career Pathways
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-5 font-playfair">
-            Structured Career Pathways for the{" "}
-            <span className="text-gold">Modern Workforce</span>
+            Training Pathways at{" "}
+            <span className="text-gold">T21 Academy Nigeria</span>
           </h1>
           <p className="text-lg text-gray-400 leading-relaxed">
-            Six professional pathways covering digital, technical, and operational skills — each designed
-            to lead directly to employment, remote work, freelancing, or further certification.
+            Eight training pathways covering digital, technical, and professional skills, each designed to lead to employment, remote work, freelancing, or further certification.
           </p>
         </div>
       </section>

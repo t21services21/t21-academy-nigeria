@@ -17,7 +17,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
-              Workforce training, certification, and talent deployment platform. Authorised Certiport Examination Centre.
+              Training, certification, and job placement for individuals and organisations across Nigeria. Authorised Certiport Examination Centre.
             </p>
             <div className="certiport-badge text-xs">Certiport Authorised Examination Centre</div>
           </div>

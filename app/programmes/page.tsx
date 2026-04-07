@@ -16,11 +16,10 @@ export default function ProgrammesPage() {
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-5 font-playfair">
             Our Training Experience &{" "}
-            <span className="text-gold">Talent Deployment</span>
+            <span className="text-gold">Our Programme Experience</span>
           </h1>
           <p className="text-lg text-gray-400 leading-relaxed">
-            T21 Academy Nigeria has delivered structured training across national government programmes,
-            institutional partnerships, and sector-specific cohorts — with a direct pipeline from training to deployment.
+            T21 Academy Nigeria has delivered structured training across national government programmes, institutional partnerships, and sector-specific cohorts, with ongoing support to help graduates find work after completing their training.
           </p>
         </div>
       </section>
@@ -36,7 +35,7 @@ export default function ProgrammesPage() {
               Government & National Programme Experience
             </h2>
             <p className="section-subtitle mx-auto text-center">
-              T21 Academy has been selected and deployed across multiple national workforce and digital skills programmes in Nigeria.
+              T21 Academy has been selected to deliver multiple national workforce and digital skills programmes across Nigeria.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
