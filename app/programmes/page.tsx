@@ -41,7 +41,7 @@ export default function ProgrammesPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: "3MTT — 3 Million Technical Talent",
+                title: "3MTT (3 Million Technical Talent)",
                 ministry: "Federal Ministry of Communications & Digital Economy",
                 description: "T21 Academy participated in the Federal Government's 3MTT initiative to develop 3 million technical talent across Nigeria. We delivered structured digital skills training across multiple cohorts.",
                 delivered: ["Digital skills training", "Technical talent development", "Programme coordination", "Trainee assessment"],
@@ -53,7 +53,7 @@ export default function ProgrammesPage() {
                 delivered: ["AI & Engineering training", "Advanced technology curriculum", "Cohort management", "Certification pathways"],
               },
               {
-                title: "TVET — Technical & Vocational Education",
+                title: "TVET: Technical and Vocational Education",
                 ministry: "Federal Ministry of Education",
                 description: "Support for the Technical and Vocational Education and Training reform agenda, delivering structured vocational and technical skills training aligned to national standards.",
                 delivered: ["Vocational skills training", "Technical education delivery", "Curriculum alignment", "Trainer development"],
@@ -71,7 +71,7 @@ export default function ProgrammesPage() {
                 delivered: ["Graphic design training", "Video production", "Content creation", "Digital media skills"],
               },
               {
-                title: "World Bank — IDEAS Project",
+                title: "World Bank IDEAS Project",
                 ministry: "Federal Government / World Bank Partnership",
                 description: "Engagement with World Bank-supported education and institutional development initiatives to improve training infrastructure and outcomes.",
                 delivered: ["Institutional development", "Training systems improvement", "Capacity building", "Education programme support"],
@@ -101,15 +101,14 @@ export default function ProgrammesPage() {
           <div className="grid md:grid-cols-2 gap-14 items-start">
             <div>
               <div className="badge mb-4">
-                <TrendingUp className="w-4 h-4" /> Talent Deployment
+                <TrendingUp className="w-4 h-4" /> Employment and Placement
               </div>
               <h2 className="section-title">
                 From Training to{" "}
                 <span className="text-gold">Real Opportunities</span>
               </h2>
               <p className="text-gray-400 leading-relaxed mb-8">
-                Training alone is not enough. T21 Academy builds structured deployment pathways that connect
-                trained candidates directly to employment, remote work, and project-based opportunities.
+                Training alone is not enough. T21 Academy actively supports graduates in finding employment, accessing remote work, and gaining project-based experience after completing their training.
               </p>
               <div className="space-y-5">
                 {[
@@ -121,11 +120,11 @@ export default function ProgrammesPage() {
                   {
                     icon: Globe,
                     title: "Remote Work Opportunities",
-                    desc: "Through our BPO and outsourcing network, trained candidates access remote work contracts with international companies — without relocating.",
+                    desc: "Through our BPO and outsourcing network, trained candidates can access remote work contracts with international companies without needing to relocate.",
                   },
                   {
                     icon: Building2,
-                    title: "BPO & Outsourcing Pipeline",
+                    title: "BPO and Outsourcing Work",
                     desc: "T21 operates a business process outsourcing model where trained graduates handle back-office, customer support, and digital operations for clients.",
                   },
                   {

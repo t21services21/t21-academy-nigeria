@@ -194,7 +194,7 @@ export default function PartnersPage() {
               <div className="space-y-4 mb-8">
                 {[
                   { icon: Users, title: "Hire Trained Candidates", desc: "Access our pool of trained, screened graduates across all six career pathways." },
-                  { icon: Globe, title: "Remote Workforce", desc: "Build a remote operations team using our BPO pipeline — trained, supervised, and managed." },
+                  { icon: Globe, title: "Remote Workforce", desc: "Build a remote operations team through our BPO network, with candidates who are trained, supervised, and managed by T21." },
                   { icon: Building2, title: "Outsource Operations", desc: "Outsource customer support, back-office, data entry, and digital operations to our trained teams." },
                   { icon: Target, title: "Custom Training", desc: "Commission bespoke training programmes tailored to your specific job roles and standards." },
                 ].map((item) => (
@@ -250,8 +250,7 @@ export default function PartnersPage() {
             Ready to Partner With T21 Academy Nigeria?
           </h2>
           <p className="text-gray-400 mb-8 leading-relaxed">
-            Whether you are a government agency, development funder, corporate sponsor, or employer —
-            we have a partnership model that works for you. Get in touch today.
+            Whether you are a government agency, development funder, corporate sponsor, or employer, we have a partnership model that suits your needs. Contact us to discuss.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact" className="btn-gold inline-flex items-center gap-2 text-base !px-8 !py-4">

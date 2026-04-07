@@ -18,7 +18,7 @@ const exams = [
   {
     category: "Python Institute",
     description: "Internationally recognised Python programming certifications, from entry-level to associate level.",
-    available: ["PCEP — Certified Entry-Level Python Programmer", "PCAP — Certified Associate in Python Programming"],
+    available: ["PCEP: Certified Entry-Level Python Programmer", "PCAP: Certified Associate in Python Programming"],
   },
   {
     category: "Adobe Certified Professional",
@@ -88,8 +88,7 @@ export default function CertiportPage() {
                   Candidates receive official Certiport digital certificates upon passing.
                 </p>
                 <p>
-                  Whether you trained at T21 Academy or elsewhere — you can come to our centre
-                  to sit your Certiport certification exam.
+                  Whether you trained at T21 Academy or elsewhere, you are welcome to come to our centre to sit your Certiport certification exam.
                 </p>
               </div>
             </div>
@@ -187,7 +186,7 @@ export default function CertiportPage() {
           </h2>
           <p className="text-gray-400 mb-6 leading-relaxed">
             Enrol in one of our structured training pathways to fully prepare for your Certiport exam.
-            We train and test — all under one roof.
+            We provide both training and examination in one place.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <Link href="/pathways" className="btn-gold inline-flex items-center gap-2">

@@ -177,7 +177,7 @@ export default function ApplyPage() {
                       >
                         <option value="">Select a pathway...</option>
                         {pathways.map((p) => <option key={p} value={p}>{p}</option>)}
-                        <option value="Not sure yet">Not sure yet — need guidance</option>
+                        <option value="Not sure yet">Not sure yet (I need guidance)</option>
                       </select>
                     </div>
                     <div>
