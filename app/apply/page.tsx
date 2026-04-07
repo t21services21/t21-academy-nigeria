@@ -49,7 +49,7 @@ export default function ApplyPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-black py-16 relative overflow-hidden">
+      <section className="bg-black pt-10 pb-10 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary-gold/6 via-transparent to-transparent" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="badge mb-4 mx-auto w-fit">

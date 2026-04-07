@@ -17,7 +17,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
-              Training, certification, and job placement for individuals and organisations across Nigeria. Authorised Certiport Examination Centre.
+              Training, certification, and job placement across Nigeria. Part of T21 Global Group (UK &amp; Nigeria). Authorised Certiport Examination Centre and TQUK Registered Training Provider.
             </p>
             <div className="certiport-badge text-xs">Certiport Authorised Examination Centre</div>
           </div>
@@ -48,6 +48,16 @@ export function Footer() {
                   className="text-gray-400 hover:text-primary-gold transition inline-flex items-center gap-1"
                 >
                   T21 Consultancy Nigeria <ExternalLink className="w-3 h-3" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.t21services.co.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-primary-gold transition inline-flex items-center gap-1"
+                >
+                  T21 Services UK <ExternalLink className="w-3 h-3" />
                 </a>
               </li>
             </ul>
@@ -107,7 +117,7 @@ export function Footer() {
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <p>© {new Date().getFullYear()} T21 Academy Nigeria. Part of T21 Global Group. All rights reserved.</p>
-          <p className="text-center">Authorised Certiport Examination Centre &bull; 3MTT Partner &bull; Government Training Delivery</p>
+          <p className="text-center">Authorised Certiport Examination Centre &bull; TQUK Registered &bull; 3MTT Partner &bull; UK &amp; Nigeria Operations</p>
         </div>
       </div>
     </footer>

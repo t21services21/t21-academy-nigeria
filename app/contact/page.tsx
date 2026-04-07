@@ -35,7 +35,7 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-black py-16 relative overflow-hidden">
+      <section className="bg-black pt-10 pb-10 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary-gold/5 via-transparent to-transparent" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="badge mb-4 mx-auto w-fit">
@@ -46,7 +46,7 @@ export default function ContactPage() {
             <span className="text-gold">T21 Academy Nigeria</span>
           </h1>
           <p className="text-gray-400 leading-relaxed max-w-2xl mx-auto">
-            Whether you want to apply, partner, sponsor, or simply ask a question — our team is ready to respond.
+            Whether you want to apply, partner, sponsor training, or simply ask a question, our team will respond within 2 working days.
           </p>
         </div>
       </section>

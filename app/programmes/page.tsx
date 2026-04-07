@@ -8,7 +8,7 @@ export default function ProgrammesPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-black py-20 relative overflow-hidden">
+      <section className="bg-black pt-10 pb-12 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary-gold/5 via-transparent to-transparent" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="badge mb-5 mx-auto w-fit">

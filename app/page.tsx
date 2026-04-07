@@ -12,15 +12,21 @@ export default function HomePage() {
       <section className="relative bg-black overflow-hidden min-h-[88vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-br from-primary-gold/8 via-transparent to-transparent" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_75%_30%,rgba(212,175,55,0.07),transparent_55%)]" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-12 md:pt-14 md:pb-16">
           <div className="max-w-4xl">
             <div className="badge mb-5">
               <GraduationCap className="w-4 h-4" />
               T21 Academy Nigeria &bull; Authorised Certiport Examination Centre
             </div>
-            <p className="text-primary-gold text-sm font-semibold tracking-wider uppercase mb-3">
-              Part of T21 Global Group
-            </p>
+            <div className="flex flex-wrap items-center gap-3 mb-3">
+              <p className="text-primary-gold text-sm font-semibold tracking-wider uppercase">
+                Part of T21 Global Group
+              </p>
+              <span className="text-gray-600 hidden sm:inline">|</span>
+              <p className="text-gray-400 text-xs tracking-wide uppercase">
+                UK &amp; Nigeria Operations &bull; Liverpool &bull; Abuja &bull; Ekiti
+              </p>
+            </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 font-playfair">
               Train, Get Certified, and{" "}
               <span className="text-gold">Find Real Work</span>{" "}
@@ -83,7 +89,9 @@ export default function HomePage() {
               "Government Programme Delivery (3MTT, DeepTech, TVET)",
               "Authorised Certiport Examination Centre",
               "Physical Training Centres in Abuja and Ekiti",
-              "UK and Nigeria Operations",
+              "UK Operations (Liverpool) and Nigeria",
+              "TQUK Registered Training Provider",
+              "NHS-Aligned Healthcare Training",
               "Job Placement and Employment Support",
             ].map((item) => (
               <span key={item} className="badge text-xs">
@@ -147,6 +155,37 @@ export default function HomePage() {
                     <h4 className="font-bold text-white text-sm mb-1">{item.title}</h4>
                     <p className="text-gray-400 text-sm">{item.desc}</p>
                   </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* UK CONNECTION */}
+      <section className="py-10 bg-neutral-950 border-y border-primary-gold/15">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+            <div className="text-center md:text-left">
+              <p className="text-xs text-gray-500 uppercase tracking-widest mb-2 font-semibold">Our UK Connection</p>
+              <h3 className="text-lg font-bold text-white font-playfair mb-1">
+                T21 Academy Nigeria is part of <span className="text-gold">T21 Global Group</span>
+              </h3>
+              <p className="text-gray-400 text-sm max-w-xl">
+                Our parent group operates in the United Kingdom from Liverpool. This gives our Nigerian graduates access to
+                internationally recognised certifications, UK-aligned training standards, and international employment pathways.
+              </p>
+            </div>
+            <div className="flex flex-wrap justify-center gap-3 flex-shrink-0">
+              {[
+                { label: "TQUK Registered Centre", sub: "UK Awarding Body" },
+                { label: "NHS-Aligned Training", sub: "Healthcare Administration" },
+                { label: "Certiport Authorised", sub: "International Exams" },
+                { label: "Liverpool, UK Office", sub: "64 Upper Parliament St" },
+              ].map((item) => (
+                <div key={item.label} className="glass-card !p-3 text-center min-w-[130px]">
+                  <p className="text-white font-semibold text-xs">{item.label}</p>
+                  <p className="text-gray-500 text-[10px] mt-0.5">{item.sub}</p>
                 </div>
               ))}
             </div>
