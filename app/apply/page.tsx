@@ -6,9 +6,11 @@ import { ArrowRight, CheckCircle, GraduationCap, Send } from "lucide-react";
 
 const pathways = [
   "Software & AI Engineering",
-  "Data & Analytics",
-  "Cybersecurity & IT",
-  "Digital Work & BPO (Virtual Assistance / Customer Support)",
+  "Full Stack Web Development",
+  "Data Science & Analytics",
+  "Cybersecurity & IT Support",
+  "Virtual Assistance & Remote Work",
+  "Customer Service & BPO",
   "Digital Creative & Media",
   "Healthcare Administration",
 ];
@@ -68,7 +70,7 @@ export default function ApplyPage() {
           <div className="grid lg:grid-cols-3 gap-10">
             {/* Info Panel */}
             <div className="space-y-5">
-              <div className="glass-card">
+              <div className="glass-card !p-5">
                 <h3 className="font-bold text-white mb-4 font-playfair">What Happens Next</h3>
                 <div className="space-y-4">
                   {[

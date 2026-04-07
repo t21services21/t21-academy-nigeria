@@ -307,7 +307,7 @@ export default function HomePage() {
       </section>
 
       {/* GLOBAL OPPORTUNITY */}
-      <section className="py-16 bg-neutral-900 border-y border-primary-gold/10">
+      <section className="py-12 bg-neutral-900 border-y border-primary-gold/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="section-title mx-auto">
@@ -382,7 +382,7 @@ export default function HomePage() {
       </section>
 
       {/* FOR PARTNERS & FUNDERS CTA */}
-      <section className="py-20 bg-neutral-900">
+      <section className="py-14 bg-neutral-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
             <div className="glass-card">
@@ -433,7 +433,7 @@ export default function HomePage() {
       </section>
 
       {/* FINAL CTA */}
-      <section className="py-20 bg-black relative overflow-hidden">
+      <section className="py-14 bg-black relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(212,175,55,0.07),transparent_60%)]" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="badge mb-5 mx-auto w-fit">

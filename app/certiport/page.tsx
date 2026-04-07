@@ -150,7 +150,7 @@ export default function CertiportPage() {
       </section>
 
       {/* How to Book */}
-      <section className="py-16 bg-neutral-900">
+      <section className="py-12 bg-neutral-900">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="section-title mx-auto">How to Book Your Exam</h2>
@@ -181,7 +181,7 @@ export default function CertiportPage() {
       </section>
 
       {/* Also Train */}
-      <section className="py-14 bg-black">
+      <section className="py-12 bg-black">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl font-bold text-white mb-4 font-playfair">
             Want to <span className="text-gold">Train Before Your Exam?</span>
